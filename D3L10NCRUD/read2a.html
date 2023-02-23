@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Muestra por especie</title>
+</head>
+<body>
+    <h2>Veterinaria "El atropellado"</h2>
+        <form action="read2b.php" method="GET">
+            <fieldset>
+                <legend>Por especie</legend>
+
+                Selecciona la especie <br>
+                <label for="especie">Especie:</label>
+                <select id="especie" name="especie">
+                    <option value="" selected="selected">selecciona</option>
+                    <option value="perro">Perro</option>
+                    <option value="gato">Gato</option>
+                </select>
+                <br>
+                <input type="submit" value="Consultar">
+            </fieldset>
+        </form>
+</body>
+</html>
